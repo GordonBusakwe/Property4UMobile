@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Properties4U.ForSale" Title="ForSale">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Label Text="Properties for Sale"></Label>
+            <textfield1.Placeholder="City or Suburb">City or Suburb</textfield1.Placeholder>
+
+            <Label>Min Price</Label
+
+            <Label>Max Price</Label>
+            <Label>Property Type</Label>
+            <Label>Bedrooms </Label>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:orientation="vertical"
+             android:layout_width="fill_parent"
+               android:layout_height="fill_parent">
+                <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+            </LinearLayout>
+
+        </StackLayout>
+        </ContentPage.Content>
+
+</ContentPage>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Properties4U.Users">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="List Of Agents" />
+
+            
+           
+
+            <ListView ItemsSource="{Binding Agents}"HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <StackLayout Orientation="Vertical"Padding="13">
+                                <Label Text="{Binding Name}"FontSize="12"/>
+                                <Entry></Entry>
+                                <Label Text="{Binding Suraname}"FontSize="12"/>
+                                <Entry></Entry>
+                                <Label Text="{Binding Email}"FontSize="12"/>
+                                <Entry></Entry>
+
+                                <Button Text="Post Users"Clicked="">Register</Button>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

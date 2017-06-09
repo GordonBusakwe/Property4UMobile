@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Properties4U"
+             x:Class="Properties4U.MainPage">
+
+    <local:ForSale></local:ForSale>
+    <local:ToRent></local:ToRent>
+    <local:Developments></local:Developments>
+    <local:Advice></local:Advice>
+    <local:Users></local:Users>
+
+
+</TabbedPage>
